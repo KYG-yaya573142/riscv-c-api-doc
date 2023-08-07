@@ -247,7 +247,7 @@ long __riscv_clmul (long a, long b); // clmul rd, rs1, rs2
 vint8m1_t __riscv_vadd_vv_i8m1(vint8m1_t vs2, vint8m1_t vs1, size_t vl); // vadd.vv vd, vs2, vs1
 ```
 
-### NTLH Intrisics 
+### NTLH Intrinsics 
 
 The RISC-V zihintntl extension provides the RISC-V specific intrinsic functions for generating non-temporal memory accesses. These intrinsic functions provide the domain parameter to specify the behavior of memory accesses.
 
